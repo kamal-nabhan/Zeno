@@ -1,0 +1,63 @@
+# Environment variables
+.env
+
+# Old structure (archived) - exclude Python files but keep README
+old_structure/*.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Audio files
+*.mp3
+*.wav
+speech.mp3
+
+# Images
+images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Spotify cache
+.cache
+.cache-*

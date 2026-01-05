@@ -1,0 +1,40 @@
+"""
+Backward compatibility wrapper
+This file maintains the old interface for existing code
+"""
+# For backward compatibility, import from new locations
+from zeno.core.config import config
+
+# Export old names
+OPENAI_API_KEY = config.OPENAI_API_KEY
+OPENAI_ASSISTANT_ID = config.OPENAI_ASSISTANT_ID
+OPENAI_THREAD_ID = config.OPENAI_THREAD_ID
+SPOTIFY_USERNAME = config.SPOTIFY_USERNAME
+SPOTIFY_CLIENT_ID = config.SPOTIFY_CLIENT_ID
+SPOTIFY_CLIENT_SECRET = config.SPOTIFY_CLIENT_SECRET
+SPOTIFY_REDIRECT_URI = config.SPOTIFY_REDIRECT_URI
+NOTION_API_KEY = config.NOTION_API_KEY
+NOTION_DATABASE_ID = config.NOTION_DATABASE_ID
+DEFAULT_CITY = config.DEFAULT_CITY
+TTS_VOICE = config.TTS_VOICE
+TTS_MODEL = config.TTS_MODEL
+OLLAMA_MODEL = config.OLLAMA_MODEL
+SYSTEM_PROMPT = config.SYSTEM_PROMPT
+
+__all__ = [
+    'OPENAI_API_KEY',
+    'OPENAI_ASSISTANT_ID',
+    'OPENAI_THREAD_ID',
+    'SPOTIFY_USERNAME',
+    'SPOTIFY_CLIENT_ID',
+    'SPOTIFY_CLIENT_SECRET',
+    'SPOTIFY_REDIRECT_URI',
+    'NOTION_API_KEY',
+    'NOTION_DATABASE_ID',
+    'DEFAULT_CITY',
+    'TTS_VOICE',
+    'TTS_MODEL',
+    'OLLAMA_MODEL',
+    'SYSTEM_PROMPT',
+    'config'
+]

@@ -1,5 +1,30 @@
+# Core Dependencies
 pyaudio
 SpeechRecognition
 --extra-index-url https://download.pytorch.org/whl/cu116
 torch
 git+https://github.com/openai/whisper.git
+
+# Environment Management
+python-dotenv
+
+# OpenAI
+openai
+
+# Audio
+pygame
+
+# Ollama
+ollama
+
+# Spotify Integration
+spotipy
+
+# Weather
+python-weather
+
+# Image Crawling
+icrawler
+
+# Real-time Speech to Text
+RealtimeSTT
